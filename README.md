@@ -1,5 +1,5 @@
 [readme_file.md](https://github.com/user-attachments/files/21706026/readme_file.md)
-# 🚀 Task Automation API
+# Task Automation API
 
 A powerful FastAPI-based service for remote server management and system administration. Perfect for chatbot integration, mobile apps, or any scenario where you need to manage servers remotely.
 
@@ -9,18 +9,18 @@ A powerful FastAPI-based service for remote server management and system adminis
 [![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green.svg)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## ✨ Features
+##  Features
 
-- 🔒 **Secure Authentication** - Bearer token-based security
-- 🖥️ **System Monitoring** - CPU, memory, disk usage, uptime tracking  
-- 🔄 **Service Management** - Start/stop/restart system services
-- 📊 **Resource Checking** - Disk space and memory monitoring
-- 📝 **Log Analysis** - View recent log entries
-- ⚡ **Safe Command Execution** - Whitelisted command execution
-- 🤖 **Chatbot Ready** - Perfect for Discord, Slack, Telegram bots
-- 📱 **Mobile Friendly** - Manage servers from your phone
+- **Secure Authentication** - Bearer token-based security
+- **System Monitoring** - CPU, memory, disk usage, uptime tracking  
+- **Service Management** - Start/stop/restart system services
+- **Resource Checking** - Disk space and memory monitoring
+- **Log Analysis** - View recent log entries
+- **Safe Command Execution** - Whitelisted command execution
+- **Chatbot Ready** - Perfect for Discord, Slack, Telegram bots
+- **Mobile Friendly** - Manage servers from your phone
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Install Dependencies
 
@@ -40,7 +40,7 @@ export API_TOKEN="your-super-secure-token-here"
 python task_api.py
 ```
 
-Your API is now running at `http://localhost:8000`! 🎉
+Your API is now running at `http://localhost:8000`!
 
 ### Test It Out
 
@@ -55,19 +55,19 @@ curl -X POST "http://localhost:8000/execute" \
   -d '{"task_type": "check_status"}'
 ```
 
-## 📋 Available Tasks
+## Available Tasks
 
 | Task | Description | Use Case |
 |------|-------------|----------|
-| 🔄 `restart_server` | Safely restart the server | Emergency server restart |
-| 📊 `check_status` | Get CPU, memory, disk stats | Health monitoring |
-| 🛠️ `restart_service` | Restart system services | Fix stuck services |
-| 💾 `check_disk_space` | Monitor disk usage | Prevent disk full errors |
-| 🧠 `check_memory` | Check RAM and swap usage | Memory monitoring |
-| ⚡ `run_command` | Execute safe commands | Quick diagnostics |
-| 📝 `check_logs` | View recent log entries | Troubleshooting |
+| `restart_server` | Safely restart the server | Emergency server restart |
+| `check_status` | Get CPU, memory, disk stats | Health monitoring |
+| `restart_service` | Restart system services | Fix stuck services |
+| `check_disk_space` | Monitor disk usage | Prevent disk full errors |
+| `check_memory` | Check RAM and swap usage | Memory monitoring |
+| `run_command` | Execute safe commands | Quick diagnostics |
+| `check_logs` | View recent log entries | Troubleshooting |
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Python Client
 
@@ -118,16 +118,16 @@ curl -X POST "http://your-server:8000/execute" \
   }'
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ **Token Authentication** - All endpoints protected
-- ✅ **Command Whitelisting** - Only safe commands allowed
-- ✅ **Input Validation** - Pydantic model validation
-- ✅ **Request Logging** - Full audit trail
-- ✅ **Rate Limiting Ready** - Easy to add rate limits
-- ✅ **HTTPS Support** - Production-ready security
+- **Token Authentication** - All endpoints protected
+- **Command Whitelisting** - Only safe commands allowed
+- **Input Validation** - Pydantic model validation
+- **Request Logging** - Full audit trail
+- **Rate Limiting Ready** - Easy to add rate limits
+- **HTTPS Support** - Production-ready security
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ```dockerfile
 FROM python:3.9-slim
@@ -147,7 +147,7 @@ docker build -t task-api .
 docker run -d -p 8000:8000 -e API_TOKEN="your-token" task-api
 ```
 
-## 🎯 Real-World Use Cases
+## Real-World Use Cases
 
 ### DevOps Automation
 ```python
@@ -163,7 +163,7 @@ if cpu_usage > 90:
 @bot.command()
 async def restart(ctx, service):
     result = api_call("restart_service", {"service_name": service})
-    await ctx.send(f"✅ {service} restarted successfully!")
+    await ctx.send(f" {service} restarted successfully!")
 ```
 
 ### Mobile Server Monitoring
@@ -230,7 +230,7 @@ GET /tasks
 GET /status
 ```
 
-## 🤝 Integration Examples
+## Integration Examples
 
 <details>
 <summary><strong>Slack Bot</strong></summary>
@@ -329,11 +329,11 @@ export LOG_LEVEL=DEBUG
 python task_api.py
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -341,22 +341,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## ⭐ Star History
+## Star History
 
 If this project helped you, please consider giving it a star! ⭐
 
-## 📞 Support
+## Support
 
-- 📖 [Full Documentation](docs/API_DOCUMENTATION.md)
-- 🐛 [Report Issues](https://github.com/yourusername/task-automation-api/issues)
-- 💬 [Discussions](https://github.com/yourusername/task-automation-api/discussions)
+- [Full Documentation](docs/API_DOCUMENTATION.md)
+- [Report Issues](https://github.com/yourusername/task-automation-api/issues)
+- [Discussions](https://github.com/yourusername/task-automation-api/discussions)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for system administrators and DevOps engineers**
-
-*"Because managing servers shouldn't require being physically present!"*
 
 </div>
