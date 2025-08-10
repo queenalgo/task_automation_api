@@ -1,4 +1,3 @@
-[readme_file.md](https://github.com/user-attachments/files/21706026/readme_file.md)
 # Task Automation API
 
 A powerful FastAPI-based service for remote server management and system administration. Perfect for chatbot integration, mobile apps, or any scenario where you need to manage servers remotely.
