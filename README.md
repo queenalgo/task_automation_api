@@ -179,7 +179,7 @@ const getServerStatus = async () => {
 };
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -204,7 +204,7 @@ sudo systemctl enable task-api
 sudo systemctl start task-api
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 Once running, visit:
 - **Interactive Docs**: `http://localhost:8000/docs`
@@ -275,7 +275,7 @@ rest_command:
 ```
 </details>
 
-## 🚨 Safety Features
+## Safety Features
 
 - **Confirmation Required**: Critical operations need explicit confirmation
 - **Delay Timers**: Server restarts have configurable delays
@@ -341,17 +341,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Star History
-
-If this project helped you, please consider giving it a star! ⭐
-
-## Support
-
-- [Full Documentation](docs/API_DOCUMENTATION.md)
-- [Report Issues](https://github.com/yourusername/task-automation-api/issues)
-- [Discussions](https://github.com/yourusername/task-automation-api/discussions)
-
----
 
 <div align="center">
 
